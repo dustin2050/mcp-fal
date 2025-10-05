@@ -15,7 +15,7 @@ from api.config import get_api_key, SERVER_NAME, SERVER_DESCRIPTION, SERVER_VERS
 
 mcp = FastMCP(
     SERVER_NAME,
-    description=SERVER_DESCRIPTION,
+    #description=SERVER_DESCRIPTION,
     dependencies=SERVER_DEPENDENCIES,
     version=SERVER_VERSION
 )
